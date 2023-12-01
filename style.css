@@ -1,1 +1,82 @@
-﻿
+﻿*
+{
+    margin: 0;
+    
+}
+
+.faq
+{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(58, 83, 48);
+}
+
+.container-toggle
+{
+    background-color: rgb(240, 239, 238);
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.active
+{
+    background-color: rgb(250, 246, 240);
+}
+
+h1
+{
+    margin: 10px;
+}
+
+.question
+{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.question-btn
+{
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(58, 83, 48);
+    background-color: rgb(230, 221, 210)
+}
+
+
+.invis 
+{
+    display: none;
+    padding: 20px;
+}
+
+h2
+{
+    padding-left: 5px;
+}
+
+.active .invis
+{
+    display: block;
+}
+
+.open
+{
+    display: none;
+}
+
+.active .open
+{
+    display: block;
+}
+
+.active .close
+{
+    display: none;
+}
